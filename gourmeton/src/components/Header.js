@@ -45,7 +45,7 @@ const NavItem = styled(Link)`
 
 const Header = () => {
   const { y: scrollY } = useWindowScroll();
-  const newOpacity = Math.max(1 - scrollY / 200, 0.7);
+  const newOpacity = Math.max(1 - scrollY / 300, 0);
 
   return (
     <HeaderContainer opacity={newOpacity}>
@@ -55,7 +55,9 @@ const Header = () => {
           <NavItem to="main" smooth={true} duration={500}>
             Início
           </NavItem>
-          {/* Você pode adicionar mais itens de navegação aqui */}
+            <NavItem to="features" smooth={true} duration={500}>
+                Funcionalidades
+            </NavItem>
         </NavMenu>
       </HeaderContent>
     </HeaderContainer>
