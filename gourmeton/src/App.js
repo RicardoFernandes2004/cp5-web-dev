@@ -6,6 +6,7 @@ import AppPresentation from './components/AppPresentation';
 import RecipeCarousel from './components/RecipeCarousel';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
+import RecipeSearch from './components/RecipeSearch';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer';
 import './Icons'; 
@@ -22,6 +23,7 @@ const App = () => {
       <AppPresentation />
       <Features />
       <RecipeCarousel />
+      <RecipeSearch/>
       <Testimonials />
       <Contact/>
       <Footer />
