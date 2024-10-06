@@ -1,4 +1,3 @@
-// Header.js
 import React from 'react';
 import styled from 'styled-components';
 import { useWindowScroll } from 'react-use';
@@ -52,12 +51,22 @@ const Header = () => {
       <HeaderContent>
         <AppName>GourmetOn</AppName>
         <NavMenu>
-          <NavItem to="main" smooth={true} duration={500}>
+          <NavItem to="main" smooth={true} duration={500} offset={-70}>
             Início
           </NavItem>
-            <NavItem to="features" smooth={true} duration={500}>
-                Funcionalidades
-            </NavItem>
+          <NavItem to="features" smooth={true} duration={500} offset={-70}>
+            Funcionalidades
+          </NavItem>
+          <NavItem to="recipe-carousel" smooth={true} duration={500} offset={-70}>
+            Receitas
+          </NavItem>
+          <NavItem to="testimonials" smooth={true} duration={500} offset={-70}>
+            Depoimentos
+          </NavItem>
+          <NavItem to="contact" smooth={true} duration={500} offset={-70}>
+            Contato
+          </NavItem>
+          
         </NavMenu>
       </HeaderContent>
     </HeaderContainer>

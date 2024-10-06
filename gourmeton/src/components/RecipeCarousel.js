@@ -49,7 +49,7 @@ const RecipeCarousel = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
-  const API_KEY = 'SUA_CHAVE_DE_API_AQUI'; // Substitua pela sua chave de API
+  const API_KEY = '2e4c1a1a557b4d23b158e67f34c1021f'; // Substitua pela sua chave de API se for testar
 
   useEffect(() => {
     const fetchRecipes = async () => {
@@ -58,7 +58,7 @@ const RecipeCarousel = () => {
           `https://api.spoonacular.com/recipes/random`,
           {
             params: {
-              number: 6, // Número de receitas a serem buscadas
+              number: 6, 
               apiKey: API_KEY,
             },
           }
@@ -113,7 +113,6 @@ const RecipeCarousel = () => {
                     />
                     <Carousel.Caption>
                       <h3>{recipe.title}</h3>
-                      {/* Opcional: Adicione uma breve descrição ou ingredientes */}
                     </Carousel.Caption>
                   </Carousel.Item>
                 ))}

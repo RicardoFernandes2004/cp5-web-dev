@@ -77,7 +77,7 @@ const AppPresentation = () => {
   return (
     <PresentationSection id="app-presentation">
       <Container>
-        <PresentationTitle>Apresentando o GourmetOn</PresentationTitle>
+        <PresentationTitle>O GourmetOn</PresentationTitle>
         <PresentationSubtitle>
           Seu guia definitivo para receitas deliciosas e gerenciamento de cozinha
         </PresentationSubtitle>
