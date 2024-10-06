@@ -65,15 +65,7 @@ Certifique-se de ter **Node.js** e **npm** instalados em sua máquina.
    npm install
    ```
 
-4. **Configure as Variáveis de Ambiente**
-
-   Crie um arquivo `.env` na raiz do projeto e adicione a sua chave da API do Spoonacular:
-
-   ```env
-   REACT_APP_SPOONACULAR_API_KEY=SuaChaveDeApiAqui
-   ```
-
-5. **Execute a Aplicação**
+4. **Execute a Aplicação**
 
    ```bash
    npm start
