@@ -1,11 +1,8 @@
-// src/components/Features.js
 import React from 'react';
 import styled from 'styled-components';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-// Importação de imagem placeholder (opcional)
-import appImage from '../assets/app-placeholder.png'; // Substitua pelo caminho correto ou utilize um link
 
 const FeaturesContainer = styled.section`
   background-color: #fffaf0; /* Cor creme */
